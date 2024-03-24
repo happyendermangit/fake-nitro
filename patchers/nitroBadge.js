@@ -4,7 +4,7 @@ const patchNitroBadge = () => {
             const allBadges = [
                 {
                     "id": "premium",
-                    "description": "Subscriber since Feb 28, 2024",
+                    "description": `Subscriber since ${new Date().toLocaleString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}`,
                     "icon": "2ba85e8026a8614b640c2837bcdfe21b",
                     "link": "https://discord.com/settings/premium"
                 }
