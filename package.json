@@ -5,7 +5,7 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "build":"rollup main.js --file dist/bundle.js --format iife &&  uglifyjs dist/bundle.js -o dist/bundle.min.js -c -m --source-map \"root='',url='fakeNitro.min.js.map'\" "
+    "build":"rollup main.js --file dist/bundle.js --format iife "
   },
   "keywords": [],
   "author": "",
